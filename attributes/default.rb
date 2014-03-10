@@ -44,6 +44,10 @@ default['magento']['apache']['parse_htaccess'] = false
 default['magento']['apache']['ssl']['keyfile'] = "ssl/magento.key"
 default['magento']['apache']['ssl']['certfile'] = "ssl/magento.pem"
 
+default['magneto']['apache']['traceEnable'] = "off"
+
+default['magento']['cronjob']['minute'] = "*/5"
+
 default['magento']['cronjob']['minute'] = "*/5"
 
 default['magento']['sites'] = Array.new
