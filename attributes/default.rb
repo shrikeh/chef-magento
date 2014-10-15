@@ -44,6 +44,9 @@ default['magento']['apache']['enable_sendfile'] = "On"
 default['magento']['apache']['parse_htaccess'] = false
 default['magento']['apache']['ssl']['keyfile'] = "ssl/magento.key"
 default['magento']['apache']['ssl']['certfile'] = "ssl/magento.pem"
+
+default['magento']['apache']['trace_enable'] = "Off"
+
 default['magento']['apache']['ssl']['protocols'] = [
     "TLSv1", "TLSv1.1", "TLSv1.2"
 ]
